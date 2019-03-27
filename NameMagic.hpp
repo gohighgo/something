@@ -1,8 +1,8 @@
 
 #include <string>
 
-string  magicName (string name){
-	string greeting;
-	greeting=string("Hello ")+name;
+std::string  magicName (std::string name){
+	std::string greeting;
+	greeting=std::string("Hello ")+name;
 	return greeting;
 }
