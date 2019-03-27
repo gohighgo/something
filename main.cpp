@@ -8,3 +8,4 @@ std::cin>>name;
 std::cout<<magicName(name);
 return 0;
 }
+
