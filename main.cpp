@@ -1,11 +1,11 @@
 #include <iostream>
 #include "NameMagic.hpp"
-
+using namespace std;
 int main (){
-std::cout<<"Hello from CPP"<<"What's your name'"<<std::endl;
-std::string name;
-std::cin>>name;
-std::cout<<magicName(name);
+cout<<"What's your name'"<<std::endl;
+string name;
+cin>>name;
+cout<<magicName(name);
 return 0;
 }
 
